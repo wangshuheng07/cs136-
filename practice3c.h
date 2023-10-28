@@ -1,0 +1,1 @@
+void sqrIntArray(int arr[], int length);

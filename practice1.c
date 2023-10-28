@@ -1,35 +1,7 @@
 #include <stdio.h>
-
-int sumArray(int arr[], int length) {
-    int result = 0;
-    int i = 0;
-    while (i < length) {
-        result += arr[i];
-        i ++;
-    }
-    return result;
-
-}
-
-void printIntArray(int arr[], int length) {
-    int i = 0;
-    while (i < length) {
-        printf("%d \n", arr[i]);
-        i ++;
-    }
-    printf("\n");
-}
-
-
-void sqrIntArray(int arr[], int length) {
-    int i = 0;
-    while (i < length) {
-        int k = arr[i];
-        arr[i] = k * k;
-        i ++;
-    }
-    
-}
+#include "practice3a.h"
+#include "practice3b.h"
+#include "practice3c.h"
 
 
 int main() {
@@ -43,3 +15,5 @@ int main() {
     printIntArray(arr, length);
     return 0;
 }
+
+
